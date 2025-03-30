@@ -10,36 +10,41 @@ function Convert-IntuneSettingsToOmaUri {
         [Parameter(Mandatory = $true)]
         [string]$Path,
 
-        [Parameter(Mandatory = $false)]
+        [Parameter(Mandatory = $true)]
         [string]$OutputPath
     )
 
     $IntuneExportFromJson = Get-Content $Path | ConvertFrom-Json
+    $PolicyName = $IntuneExportFromJson.name
+    $PolicyDescription = $IntuneExportFromJson.description
 
     $Settings = @()
     foreach ($SettingInstance in $IntuneExportFromJson.Settings.settingInstance) {
         $Settings += Convert-SettingInstance -DCv2SettingInstance $SettingInstance -DCv2SettingsRoot $DCv2SettingsRoot
     }
 
-    $result = $Settings
-
-    if ($OutputPath) {
-        $result | ConvertTo-Json -Depth 10 | Set-Content -Path $OutputPath -Encoding UTF8
-    } else {
-        $result
+    $result = [PSCustomObject]@{
+        PolicyName        = $PolicyName
+        PolicyDescription = $PolicyDescription
+        PolicySettings    = $Settings
     }
+
+    $result | ConvertTo-Json -Depth 10 | Set-Content -Path $OutputPath -Encoding UTF8
+
 }
 
 function Export-SettingsCatalogAsOmiUri {
     param (
+        [Parameter(Mandatory = $true)]
         [string]$SettingsCatalogId,
-
-        [Parameter(Mandatory = $false)]
+        [Parameter(Mandatory = $true)]
         [string]$OutputPath
     )
 
     $ObjectId = $SettingsCatalogId
     $SettingsCatalogPolicy = Invoke-GraphRequest -Method GET -Uri "beta/deviceManagement/configurationPolicies/$ObjectId"
+    $PolicyName = $SettingsCatalogPolicy.name
+    $PolicyDescription = $SettingsCatalogPolicy.description
     Write-Host "Processing Policy: $($SettingsCatalogPolicy.name)"
     $SettingsCatalogPolicySettings = (Invoke-GraphRequest -Method GET -Uri "beta/deviceManagement/configurationPolicies/$ObjectId/settings").Value
 
@@ -48,13 +53,13 @@ function Export-SettingsCatalogAsOmiUri {
         $Settings += Convert-SettingInstance -DCv2SettingInstance $PolicySetting.settingInstance -DCv2SettingsRoot $DCv2SettingsRoot
     }
 
-    $result = $Settings
-
-    if ($OutputPath) {
-        $result | ConvertTo-Json -Depth 10 | Set-Content -Path $OutputPath -Encoding UTF8
-    } else {
-        $result
+    $result = [PSCustomObject]@{
+        PolicyName        = $PolicyName
+        PolicyDescription = $PolicyDescription
+        PolicySettings    = $Settings
     }
+
+    $result | ConvertTo-Json -Depth 10 | Set-Content -Path $OutputPath -Encoding UTF8
 }
 
 function Convert-SettingInstance {
@@ -85,6 +90,7 @@ function Convert-SettingInstance {
     $InstanceType = $DCv2SettingInstance.'@odata.type'
 
     switch ($InstanceType) {
+        # Drop down and select one value
         "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance" {
             $SelectedOption = $SettingDefinition.options | Where-Object { $_.itemId -eq $DCv2SettingInstance.choiceSettingValue.value }
             if ($null -eq $SelectedOption) {
@@ -126,14 +132,23 @@ function Convert-SettingInstance {
             }
             $SettingValue = $AllValues
         }
+        # Drop down on UI with multiple checkbox selections
+        "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionInstance" {
+            $SettingValue = @()
+            foreach ($SelectedOption in $DCv2SettingInstance.choiceSettingCollectionValue.value) {
+                $SelectedOptionDefinition = $SettingDefinition.options | Where-Object { $_.itemId -eq $SelectedOption }
+                $SettingValue += $SelectedOptionDefinition.optionValue.value
+            }
+        }
         default {
             Write-Warning "Unknown instance type: $InstanceType"
             $SettingValue = $null
+
         }
     }
 
     return [PSCustomObject]@{
-        OmaUri        = $OmaUri
-        Value         = $SettingValue
+        OmaUri = $OmaUri
+        Value  = $SettingValue
     }
 }

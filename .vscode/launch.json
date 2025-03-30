@@ -9,7 +9,7 @@
             "name": "PowerShell: Launch Script",
             "type": "PowerShell",
             "request": "launch",
-            "script": "${workspaceFolder}/Convert-IntuneToOmaUri.ps1",
+            "script": "${workspaceFolder}/Convert-IntuneSettingsToOmaUri.ps1",
             "args": []
         }
     ]

@@ -1,0 +1,1316 @@
+{
+  "PolicyName": "Security Baseline for Windows 10 and later",
+  "PolicyDescription": "",
+  "PolicySettings": [
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventEnablingLockScreenCamera",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_DnsClient/Turn_Off_Multicast",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/HardenedUNCPaths",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/ConfigureRedirectionGuardPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/ConfigureRpcConnectionPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/ConfigureRpcListenerPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/ConfigureRpcTcpPort",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/RestrictDriverInstallationToAdministrators",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/ConfigureCopyFilesPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_CredSsp/AllowEncryptionOracle",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceInstallation/PreventInstallationOfMatchingDeviceSetupClasses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_GroupPolicy/CSE_Registry",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalSecurityAuthority/AllowCustomSSPsAPs",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Power/AllowStandbyStatesWhenSleepingOnBattery",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Power/AllowStandbyWhenSleepingPluggedIn",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesOnBattery",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesPluggedIn",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/SetDefaultAutoRunBehavior",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/TurnOffAutoPlay",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/BitLocker/FixedDrivesRequireEncryption",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/BitLocker/RemovableDrivesRequireEncryption",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsUI/EnumerateAdministrators",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownInternetZoneAllowSmartScreenIE",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneAllowSmartScreenIE",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SpecifyUseOfActiveXInstallerService",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableBlockAtFirstSeen",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/RealtimeProtection_DisableScanOnRealtimeEnable",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisablePackedExeScanning",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableRoutinelyTakingAction",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowPasswordSaving",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowDriveRedirection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/RequireSecureRPCCommunication",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnableMPRNotifications",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/AllowAutomaticRestartSignOn",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogon_AuditCredentialValidation",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditAccountLockout",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditGroupMembership",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogon",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditFileShare",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditSecurityGroupManagement",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecuritySystemExtension",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditSpecialLogon",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditPNPActivity",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditDetailedFileShare",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditRemovableStorage",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecurityStateChange",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSystemIntegrity",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventCertErrorOverrides",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverrideForFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DataProtection/AllowDirectMemoryAccess",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowArchiveScanning",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowBehaviorMonitoring",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowCloudProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowFullScanRemovableDriveScanning",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowOnAccessProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowRealtimeMonitoring",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowIOAVProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AllowScriptScanning",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules",
+      "Value": [
+        "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=1",
+        "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=1",
+        "26190899-1602-49e8-8b27-eb1d0a1ce869=1",
+        "D4F940AB-401B-4EFC-AADC-AD5F3C50688A=1",
+        "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c=1",
+        "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=1",
+        "D3E037E1-3EB8-44C8-A917-57927947596D=1",
+        "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=1",
+        "3B576869-A4EC-4529-8536-B80A7769E899=1",
+        "75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=1",
+        "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/CloudBlockLevel",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/CloudExtendedTimeout",
+      "Value": 50
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/DisableLocalAdminMerge",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/EnableFileHashComputation",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/HideExclusionsFromLocalAdmins",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/PUAProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/RealTimeScanDirection",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/EnableConvertWarnToBlock",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/HideExclusionsFromLocalUsers",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/OobeEnableRtpAndSigUpdate",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/PassiveRemediation",
+      "Value": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Defender/Configuration/QuickScanIncludeExclusions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/ConfigureSystemGuardLaunch",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/LsaCfgFlags",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/EnableVirtualizationBasedSecurity",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/RequirePlatformSecurityFeatures",
+      "Value": 3
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/MachineIdentityIsolation",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordEnabled",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DmaGuard/DeviceEnumerationPolicy",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall",
+      "Value": "true"
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/EnableFirewall",
+      "Value": "true"
+    },
+    {
+      "OmaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/EnableFirewall",
+      "Value": "true"
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Kerberos/PKInitHashAlgorithmConfiguration",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MachineInactivityLimit",
+      "Value": 900
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior",
+      "Value": "1"
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM",
+      "Value": "O:BAG:BAD:(A;;RC;;;BA)"
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel",
+      "Value": 5
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients",
+      "Value": 537395200
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers",
+      "Value": 537395200
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowGameDVR",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAllowUserControlOverInstall",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/SmartScreenEnabled",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/PreventSmartScreenPromptOverride",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoiceAboveLock",
+      "Value": 2
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WebThreatDefense/NotifyMalicious",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WebThreatDefense/NotifyPasswordReuse",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WebThreatDefense/NotifyUnsafeApp",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WebThreatDefense/ServiceEnabled",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SmartScreen/EnableSmartScreenInShell",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SmartScreen/PreventOverrideForFilesInShell",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Sudo/EnableSudo",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxAccessoryManagementServiceStartupMode",
+      "Value": 4
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveAuthManagerServiceStartupMode",
+      "Value": 4
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveGameSaveServiceStartupMode",
+      "Value": 4
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveNetworkingServiceStartupMode",
+      "Value": 4
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/TaskScheduler/EnableXboxGameSaveTask",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/AccessFromNetwork",
+      "Value": [
+        "*S-1-5-32-544",
+        "*S-1-5-32-555"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/AllowLocalLogOn",
+      "Value": [
+        "*S-1-5-32-544",
+        "*S-1-5-32-545"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/BackupFilesAndDirectories",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects",
+      "Value": [
+        "*S-1-5-32-544",
+        "*S-1-5-19",
+        "*S-1-5-20",
+        "*S-1-5-6"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePageFile",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DebugPrograms",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DenyAccessFromNetwork",
+      "Value": [
+        "*S-1-5-113"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DenyRemoteDesktopServicesLogOn",
+      "Value": [
+        "*S-1-5-113"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ImpersonateClient",
+      "Value": [
+        "*S-1-5-32-544",
+        "*S-1-5-6",
+        "*S-1-5-19",
+        "*S-1-5-20"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/LoadUnloadDeviceDrivers",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ManageAuditingAndSecurityLog",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ManageVolume",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyFirmwareEnvironment",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/RemoteShutdown",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/RestoreFilesAndDirectories",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/TakeOwnership",
+      "Value": [
+        "*S-1-5-32-544"
+      ]
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/VirtualizationBasedTechnology/HypervisorEnforcedCodeIntegrity",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Wifi/AllowInternetSharing",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/PassportForWork/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing",
+      "Value": "true"
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace",
+      "Value": 0
+    }
+  ]
+}

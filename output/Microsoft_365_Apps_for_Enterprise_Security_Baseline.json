@@ -1,0 +1,514 @@
+{
+  "PolicyName": "Microsoft 365 Apps for Enterprise Security Baseline",
+  "PolicyDescription": "",
+  "PolicySettings": [
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SecGuidev22h2~Policy~Cat_SecGuide/Pol_SecGuide_A001_Block_Flash",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SecGuidev22h2~Policy~Cat_SecGuide/Pol_SecGuide_Legacy_JScript",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/access16v2~Policy~L_MicrosoftOfficeaccess~L_ApplicationSettings~L_Security~L_TrustCenter~L_TrustedLocations/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/access16v2~Policy~L_MicrosoftOfficeaccess~L_ApplicationSettings~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/access16v2~Policy~L_MicrosoftOfficeaccess~L_ApplicationSettings~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/access16v2~Policy~L_MicrosoftOfficeaccess~L_ApplicationSettings~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/access16v2~Policy~L_MicrosoftOfficeaccess~L_ApplicationSettings~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_DataRecovery/L_Donotshowdataextractionoptionswhenopeningcorruptworkbooks",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Advanced~L_WebOptions~L_General/L_LoadpicturesfromWebpagesnotcreatedinExcel",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Advanced/L_Asktoupdateautomaticlinks",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Save/L_DisableAutoRepublish",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Save/L_DoNotShowAutoRepublishWarningAlert",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v3~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ExternalContent/L_EnableBlockUnsecureQueryFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_DBaseIIIANDIVFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_DifAndSylkFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel2MacrosheetsAndAddInFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel2Worksheets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel3MacrosheetsAndAddInFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel3Worksheets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel4MacrosheetsAndAddInFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel4Workbooks",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel4Worksheets",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel95Workbooks",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel9597WorkbooksAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Excel972003WorkbooksAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_SetDefaultFileBlockBehavior",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v3~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ProtectedView/L_EnableDataBaseFileProtectedView",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesFromTheInternetZoneInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesInUnsafeLocationsInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ProtectedView/L_SetDocumentBehaviorIfFileValidationFails",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_ProtectedView/L_TurnOffProtectedViewForAttachmentsOpenedFromOutlook",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter~L_TrustedLocations/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v8~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_BlockXLLFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v6~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_XL4KillSwitchPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security/L_Forcefileextenstionstomatch",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security/L_DeterminewhethertoforceencryptedExcel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security/L_TurnOffFileValidation",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Security/L_WebContentWarningLevel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/lync16v2~Policy~L_Lync~L_LyncConfiguration/L_PolicyEnableSIPHighSecurityMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/lync16v2~Policy~L_Lync~L_LyncConfiguration/L_PolicyDisableHttpConnect",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_GloablOptions~L_Customize/L_NoExtensibilityCustomizationFromDocumentPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings~L_trustcenter241/L_Allowmixofpolicyanduserlocations",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_ActiveXControlInitialization",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v12~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_BasicAuthProxyBehavior",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v6~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_AllowVbaIntranetRefs",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_AutomationSecurity",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v5~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_AuthenticationFBABehavior",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v6~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_DisableStrictVbaRefsSecurityPolicy",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_DisableallTrustBarnotificationsfor",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v14~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_Encryptiontypeforirm",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_Encryptiontypeforpasswordprotectedoffice972003",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_Encryptiontypeforpasswordprotectedofficeopen",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_LoadControlsinForms3",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_MacroRuntimeScanScope",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SecuritySettings/L_Protectdocumentmetadataforrightsmanaged",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_ServerSettings/L_DisabletheOfficeclientfrompolling",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_SmartDocumentsWordExcel/L_DisableSmartDocumentsuseofmanifests",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_AddonManagement",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_ConsistentMimeHandling",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_Disableusernameandpassword",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_Informationbar",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_LocalMachineZoneLockdownSecurity",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_MimeSniffingSafetyFature",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_NavigateURL",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_ObjectCachingProtection",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_ProtectionFromZoneElevation",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_RestrictActiveXInstall",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_RestrictFileDownload",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_SavedfromURL",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./Device/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficemachine~L_SecuritySettingsMachine~L_IESecurity/L_ScriptedWindowSecurityRestrictions",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/outlk16v2~Policy~L_MicrosoftOfficeOutlook~L_Security~L_SecurityFormsettings/L_OutlookSecurityMode",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_PowerPoint972003PresentationsShowsTemplatesandAddInFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_SetDefaultFileBlockBehavior",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesFromTheInternetZoneInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesInUnsafeLocationsInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_ProtectedView/L_SetDocumentBehaviorIfFileValidationFails",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_ProtectedView/L_TurnOffProtectedViewForAttachmentsOpenedFromOutlook",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter~L_TrustedLocations/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security/L_RunPrograms",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security/L_Determinewhethertoforceencryptedppt",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/ppt16v2~Policy~L_MicrosoftOfficePowerPoint~L_PowerPointOptions~L_Security/L_TurnOffFileValidation",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/proj16v2~Policy~L_Proj~L_ProjectOptions~L_Security~L_TrustCenter/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/proj16v2~Policy~L_Proj~L_ProjectOptions~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/proj16v2~Policy~L_Proj~L_ProjectOptions~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/proj16v2~Policy~L_Proj~L_ProjectOptions~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/pub16v3~Policy~L_MicrosoftOfficePublisher~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/pub16v2~Policy~L_MicrosoftOfficePublisher~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/pub16v2~Policy~L_MicrosoftOfficePublisher~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/pub16v2~Policy~L_MicrosoftOfficePublisher~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/pub16v2~Policy~L_MicrosoftOfficePublisher~L_Security/L_PublisherAutomationSecurityLevel",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Visio2000Files",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Visio2003Files",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Visio50AndEarlierFiles",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/visio16v2~Policy~L_MicrosoftVisio~L_VisioOptions~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_SetDefaultFileBlockBehavior",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word2AndEarlierBinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word2000BinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word2003BinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word2007AndLaterBinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word6Pt0BinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word95BinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_Word97BinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_FileBlockSettings/L_WordXPBinaryDocumentsAndTemplates",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesFromTheInternetZoneInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_ProtectedView/L_DoNotOpenFilesInUnsafeLocationsInProtectedView",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_ProtectedView/L_SetDocumentBehaviorIfFileValidationFails",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_ProtectedView/L_TurnOffProtectedViewForAttachmentsOpenedFromOutlook",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter~L_TrustedLocations/L_AllowTrustedLocationsOnTheNetwork",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_BlockMacroExecutionFromInternet",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_DisableTrustBarNotificationforunsigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_AllowDDE",
+      "Value": 0
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_RequirethatApplicationExtensionsaresigned",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_DeterminewhethertoforceencryptedWord",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security~L_TrustCenter/L_VBAWarningsPolicy",
+      "Value": 1
+    },
+    {
+      "OmaUri": "./User/Vendor/MSFT/Policy/Config/word16v2~Policy~L_MicrosoftOfficeWord~L_WordOptions~L_Security/L_TurnOffFileValidation",
+      "Value": 0
+    }
+  ]
+}
