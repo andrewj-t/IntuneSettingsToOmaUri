@@ -1,3 +1,5 @@
+#requires -PSEdition Core
+Set-StrictMode -Version 3.0
 $ErrorActionPreference = 'Stop'
 
 # Update to path of local copy of https://github.com/pl4nty/intune-change-tracking
