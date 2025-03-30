@@ -1,0 +1,46 @@
+[
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edgev78diff~Policy~microsoft_edge/AdsSettingForIntrusiveAdsSites",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge/DownloadRestrictions",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge/ConfigureDoNotTrack",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~ContentSettings/DefaultPopupsSetting",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edgev83diff~Policy~microsoft_edge/DnsOverHttpsMode",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge/DeveloperToolsAvailability",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edgev80diff~Policy~microsoft_edge/DNSInterceptionChecksEnabled",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~PasswordManager/PasswordManagerEnabled",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/SmartScreenEnabled",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/PreventSmartScreenPromptOverride",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/PreventSmartScreenPromptOverrideForFiles",
+    "Value": 1
+  }
+]

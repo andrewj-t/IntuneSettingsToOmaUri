@@ -1,0 +1,266 @@
+[
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MSS-legacy/Pol_MSS_ScreenSaverGracePeriod",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_NetworkConnections/NC_StdDomainUserSetLocation",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WCM/WCM_MinimizeConnections",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_Printing2/RegisterSpoolerRemoteRpcEndPoint",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/RestrictDriverInstallationToAdministrators",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Printers/PointAndPrintRestrictions",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_CredSsp/AllowEncryptionOracle",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/SetDefaultAutoRunBehavior",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/TurnOffAutoPlay",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsUI/EnumerateAdministrators",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_Sharing/DisableHomeGroup",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_PushToInstall/DisablePushToInstall",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/ErrorReporting/DisableWindowsErrorReporting",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/AllowPhonePCLinking",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/DataProtection/AllowDirectMemoryAccess",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Experience/AllowCortana",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Experience/AllowManualMDMUnenrollment",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Games/AllowAdvancedGamingServices",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Kerberos/PKInitHashAlgorithmConfiguration",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Privacy/DisablePrivacyExperience",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Security/AllowAddProvisioningPackage",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Security/AllowRemoveProvisioningPackage",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Security/RequireRetrieveHealthCertificateOnBoot",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Settings/PageVisibilityList",
+    "Value": "hide:gaming-gamebar;gaming-gamedvr;gaming-broadcasting;gaming-gamemode;gaming-xboxnetworking"
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Sudo/EnableSudo",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxAccessoryManagementServiceStartupMode",
+    "Value": 4
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveAuthManagerServiceStartupMode",
+    "Value": 4
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveGameSaveServiceStartupMode",
+    "Value": 4
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/SystemServices/ConfigureXboxLiveNetworkingServiceStartupMode",
+    "Value": 4
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/TaskScheduler/EnableXboxGameSaveTask",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/Wifi/AllowInternetSharing",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WirelessDisplay/AllowProjectionFromPC",
+    "Value": 1
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WirelessDisplay/AllowProjectionToPC",
+    "Value": 0
+  },
+  {
+    "OmaUri": "./Device/Vendor/MSFT/Policy/Config/WirelessDisplay/RequirePinForPairing",
+    "Value": 1
+  }
+]
